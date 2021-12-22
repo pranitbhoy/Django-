@@ -1,1 +1,39 @@
 
+
+# how to create project = django - admin startprojrct (projectname)
+
+   create   1.__init__.py
+            2.asgi.py
+            3.settings.py
+            4.urls.py
+            5.wsgi.py 
+    ans out side 
+            6.manage.py
+
+
+# how to create appllication = python manage.py startapp  (nameofappllication)
+
+
+  create    1.__init__.py
+            2.admin.py
+            3.apps.py
+            4.models.py
+            5.testss.py  
+            6.viwes.py
+
+
+ #create views  
+
+       from django http import HttReponse  
+
+     #  Fn
+           def show(request):
+                  return HttReponse  ( "         data          ")
+
+
+ #path create
+        import views
+
+        path("path_name",views.show)
+
+# python manage.py runserver 
